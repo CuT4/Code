@@ -1,0 +1,49 @@
+body{
+    background: #909090;    
+}
+#contenedor{
+    margin-left: 50%;
+    background-color: blanchedalmond;
+    margin: 2rem;
+    padding: 6px;
+    padding-bottom: 100%;
+}
+#titulo{
+    margin-left: 35%;
+}
+#formulario{
+    font-size: large;
+    margin: 1rem;
+}
+.elementos{
+    margin: 0 1rem 2rem 35%;;
+}
+.imagen{
+    margin: 1rem 1rem 0 1rem;
+    width: 80px;
+    height: 80px;
+}
+.preguntas{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: blanchedalmond;
+    border-bottom: 2px solid gray;
+    outline: none !important;
+}
+.opciones{
+    width: 40px;
+    border: 2px solid gray;
+    border-radius: 1rem;
+    background-color: blanchedalmond;
+    outline: none !important;
+    box-sizing: 2px 2px;
+}
+.opciones2{
+    width: 220px;
+    border: 2px solid gray;
+    border-radius: 1rem;
+    background-color: blanchedalmond;
+    outline: none !important;
+    box-sizing: 2px 2px;
+}

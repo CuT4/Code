@@ -1,0 +1,56 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.flex-item{
+    border-radius: 1rem;
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 20px;
+    max-width: 300px;
+    border: 2px solid black;
+    padding: 0 20px;
+}
+.flex-item:hover{
+    border-color: #21a177;
+    box-shadow: 0rem 0rem 0.7rem #21a177;
+}
+.flex-item:focus{
+    /* ESTO ME HA SERVIDO PARA QUE AL PULSAR SE MANTENGA, CONSULTAR JAVASCRIPT */
+    border-color: #21a177;
+    box-shadow: 0rem 0rem 0.7rem #21a177;
+}
+h3{
+    color: #999;
+}
+h3 h2{
+    margin: 0;
+}
+p b{
+    color: rgb(132, 200, 28);
+}
+.llave-img{
+    width: 300px;
+}
+form{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+input[type="submit"]{
+    color: beige;
+    background: #317124;
+    columns: #fff;
+    border: none;
+    padding: 12px 28px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}

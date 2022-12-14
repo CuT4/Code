@@ -1,0 +1,15 @@
+.contenedor{
+    padding: 30px;
+    width: 30px;
+    background-color: red;
+}
+.contenedor-1, .contenedor-2{
+    padding: 30px;
+    width: 40px;
+}
+.contenedor-1{
+    background-color: aquamarine;
+}
+.contenedor-2{
+    background-color: palevioletred;
+}

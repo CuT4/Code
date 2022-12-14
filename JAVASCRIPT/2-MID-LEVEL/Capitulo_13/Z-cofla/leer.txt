@@ -1,0 +1,1 @@
+Estan en el servidor de xampp porque trabaja con peticiones a servidores y necesitaba uno activo.

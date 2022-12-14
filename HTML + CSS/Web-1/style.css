@@ -1,0 +1,93 @@
+html{
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+
+
+#titulo{
+    color: whitesmoke;
+    text-shadow: 5px 5px 0px black;
+
+}
+
+
+body{
+    margin: 0;
+    background-color: lightblue;
+}
+
+header{
+    border-radius: 1rem;
+    background-color: rgb(10, 45, 80);
+    color: white;
+    padding: 3rem 2rem;
+}
+
+header, h1{
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+#parrafo-div{
+    text-align: center;
+}
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 2rem;
+    padding: 0.25rem 0rem;
+    cursor:pointer;
+}
+
+section article:hover{
+    box-shadow: 0.1rem 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+
+footer{
+    background-color: rgb(10, 45, 80);
+    padding:1rem;
+    color: white;
+}
+
+footer section{
+    color: #fff;
+    float: right;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer section a{
+
+    transition: color 0.3s ease;
+
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+footer section a:hover{
+    color: peru;
+
+}
+
+/*footer section a:active{
+    color: red;
+
+}*/

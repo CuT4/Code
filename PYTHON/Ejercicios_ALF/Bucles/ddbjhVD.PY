@@ -1,0 +1,6 @@
+print("a", end="")
+print("")
+print("b", end="")
+print("")
+print("c", end="")
+print("")

@@ -1,0 +1,3 @@
+{Esto es un texto informativo de prueba, en el que podría ir
+algo relevante de una API pero realmente esto no está ni en
+json serializado.}

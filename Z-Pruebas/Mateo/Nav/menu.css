@@ -1,0 +1,31 @@
+nav{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  width: 79rem;
+  height: 8rem;
+  color: darkkhaki;
+  background-color: rgb(145, 149, 16);
+  font-size: 2rem;
+}
+nav div ul li{
+  float: left;
+  position: static;
+}
+ul, ol{
+  list-style: none;
+}
+a{
+  color: rgb(255, 250, 187);
+  text-decoration: none;
+  font-size: 3rem;
+  margin: 0rem 2rem 0rem 2rem;
+}
+a:hover{
+  color: rgb(187, 134, 56);
+  text-shadow: 2px 2px 1px black;
+}
+
+
+
+

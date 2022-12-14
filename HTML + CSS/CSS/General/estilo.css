@@ -1,0 +1,142 @@
+#body{
+
+    background: rgb(146, 149, 147);
+}
+
+
+
+
+#titulo{
+    color:tomato;
+}
+
+
+
+
+p.especial{
+    color:purple;
+
+}
+
+p{
+    color:plum;
+}
+
+div h3{
+    color:maroon;
+}
+
+.color{
+    /*border: 5px blue solid; */
+    border-style:solid;
+    border-color:blue;
+    border-radius:5px;
+}
+
+#fondo{
+
+    background-color: red;
+    
+    
+    background-image: url("imagenes/coffee.png") ;
+    /*background-size: cover;
+    background-repeat: no-repeat;*/
+
+    height: 100px;
+    width:50px;
+    overflow: scroll ;
+}
+
+.text{
+    font: red;
+    text-align: center;
+}
+
+
+.margen{
+    background-color: chocolate ;
+    background-size: cover;
+
+    margin: 30px 30px 30px 30px;
+
+    padding: 20px 20px 20px 20px;
+
+    border: outset 2px black;
+
+
+}
+
+
+.lista{
+
+background-color: white;
+padding-left: 0px;
+
+
+}
+
+.tabla{
+    
+    border-collapse: collapse;
+    
+    width: 100%;
+}
+
+th, td{
+    border: solid 1px #eee;
+    
+    padding: 5px;
+    text-align: center;
+}
+
+th{
+    background-color: tomato;
+    color:white;
+}
+
+tr:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+
+span{
+
+    display: block;
+}
+
+
+.inline{
+    display: inline;
+}
+
+#position{
+    position: fixed;
+}
+
+.left{
+
+    height: 200px;
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+
+
+#container{
+    max-height: 300px;
+}
+
+.card{
+    border: solid 1px;
+    color: #ddd;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+

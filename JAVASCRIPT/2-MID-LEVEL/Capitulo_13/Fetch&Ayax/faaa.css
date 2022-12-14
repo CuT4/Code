@@ -1,0 +1,17 @@
+#nombre{
+    font-size: 50px;
+}
+.nombre, .edad{
+    color: aliceblue;
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid black;
+}
+.nombre{
+    background-color: chocolate;
+}
+.edad{
+    background-color: blueviolet;
+}

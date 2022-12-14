@@ -1,0 +1,3 @@
+En el capítulo 11 del curso habla de la detección y 
+corrección de código obsoleto, 
+ya sean métodos, funciones, navegadores etc...

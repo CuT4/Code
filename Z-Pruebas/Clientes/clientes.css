@@ -1,0 +1,19 @@
+.granTabla{
+    border-collapse: collapse;
+    width: 90%;
+}
+th, td{
+    border: solid 1px rgb(17, 42, 56);
+    padding: 5px;
+    text-align: center;
+}
+
+th{
+    background-color: rgba(37, 98, 18, 0.29);
+    color:#333;
+}
+
+td:hover{
+    background-color: rgba(139, 142, 125, 0.29);
+    cursor: pointer;
+}
