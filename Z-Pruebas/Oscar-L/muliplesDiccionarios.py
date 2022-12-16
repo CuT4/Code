@@ -2,16 +2,15 @@
 import random
 
 #Creo el array 'alumnos' (se pueden poner cuantos se deseen)
-alumnos=["MARIA DEL CARMEN","ANTONIO", "MARIA", "MANUEL", "CARMEN", "JOSE", "ANA MARIA", "FRANCISCO", "MARIA PILAR", "DAVID",	"LAURA", "PILAR"]
+alumnos=["OSCAR", "MARIA DEL CARMEN","ANTONIO", "MARIA", "MANUEL", "CARMEN", "JOSE", "ANA MARIA", "FRANCISCO", "MARIA PILAR", "DAVID",	"LAURA", "PILAR"]
 #Creo el array 'materias' (se pueden poner cuantas se deseen)
-materias=["matemáticas", "FQ", "EF", "plástica", "historia", "geografía", "castellano", "TIC", "Cuci", "biología"]
-
+materias=["valores","matemáticas", "FQ", "EF", "plástica", "historia", "geografía", "castellano", "TIC", "Cuci", "biología"]
+#Creo un diccionario vacío
+nombre={}
+#Declaro la variable 'max' para establecer un límite más adelante
+max=len(materias)
 #La función 'crear(name)' recibe un nombre y con él completa el valor 'Nombre' en un diccionario
 def crear(name):
-    #Declaro la variable 'max' para establecer un límite más adelante
-    max=len(materias)
-    #Creo un diccionario vacío
-    nombre={}
     #Itetrará tantas veces como alumnos haya
     for i in range(len(alumnos)):
         """
