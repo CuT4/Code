@@ -4,7 +4,7 @@ import random
 #Creo el array 'alumnos' (se pueden poner cuantos se deseen)
 alumnos=["MARIA DEL CARMEN","ANTONIO", "MARIA", "MANUEL", "CARMEN", "JOSE", "ANA MARIA", "FRANCISCO", "MARIA PILAR", "DAVID",	"LAURA", "PILAR"]
 #Creo el array 'materias' (se pueden poner cuantas se deseen)
-materias=["matematicas", "FQ", "EF", "plastica", "historia", "geografia", "castellano", "TIC", "Cuci", "biología"]
+materias=["matematicas", "FQ", "EF", "plastica", "historia", "geografia", "castellano", "TIC", "Cuci", "biologia"]
 
 #La función 'crear(name)' recibe un nombre y con él completa el valor 'Nombre' en un diccionario
 def crear(name):
@@ -13,13 +13,13 @@ def crear(name):
     #Creo un diccionario vacío
     nombre={}
     #Itetrará tantas veces como alumnos haya
+    #El nombre es la primera clave-valor
+    nombre["Nombre: "]=name
     for i in range(len(alumnos)):
         """
         Procuro que no se busquen asignaturas con posiciones mayores a la máxima del array 'materias'.
         Ya que sino se añadirían valores vacíos o nulos al diccionario
         """
-        #El nombre es la primera clave-valor
-        nombre["Nombre: "]=name
         if i>=max:
             pass
         #De no haber ningún inconvceniente a la hora de iterar, se añaden valores al diccionario
