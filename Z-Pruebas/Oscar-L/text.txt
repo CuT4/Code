@@ -1,42 +1,31 @@
-{'Nombre: ': 'MARIA DEL CARMEN', 'matemáticas': 9, 'FQ': 0, 'EF': 0, 'plástica': 5, 'historia': 2, 'geografía': 5, 'castellano': 9, 'TIC': 9, 'Cuci': 1, 'biología': 1}
-{'Nombre: ': 'ANTONIO', 'matemáticas': 3, 'FQ': 6, 'EF': 4, 'plástica': 10, 'historia': 9, 'geografía': 4, 'castellano': 2, 'TIC': 2, 'Cuci': 7, 'biología': 6}
-{'Nombre: ': 'MARIA', 'matemáticas': 4, 'FQ': 4, 'EF': 10, 'plástica': 10, 'historia': 6, 'geografía': 9, 'castellano': 9, 'TIC': 0, 'Cuci': 6, 'biología': 4}
-{'Nombre: ': 'MANUEL', 'matemáticas': 2, 'FQ': 8, 'EF': 5, 'plástica': 4, 'historia': 4, 'geografía': 5, 'castellano': 7, 'TIC': 1, 'Cuci': 8, 'biología': 5}
-{'Nombre: ': 'CARMEN', 'matemáticas': 8, 'FQ': 3, 'EF': 6, 'plástica': 4, 'historia': 2, 'geografía': 3, 'castellano': 7, 'TIC': 7, 'Cuci': 8, 'biología': 5}
-{'Nombre: ': 'JOSE', 'matemáticas': 4, 'FQ': 1, 'EF': 9, 'plástica': 0, 'historia': 1, 'geografía': 0, 'castellano': 9, 'TIC': 0, 'Cuci': 6, 'biología': 10}
-{'Nombre: ': 'ANA MARIA', 'matemáticas': 10, 'FQ': 5, 'EF': 0, 'plástica': 6, 'historia': 9, 'geografía': 10, 'castellano': 3, 'TIC': 4, 'Cuci': 1, 'biología': 10}
-{'Nombre: ': 'FRANCISCO', 'matemáticas': 1, 'FQ': 10, 'EF': 2, 'plástica': 10, 'historia': 0, 'geografía': 5, 'castellano': 10, 'TIC': 8, 'Cuci': 0, 'biología': 3}
-{'Nombre: ': 'MARIA PILAR', 'matemáticas': 10, 'FQ': 6, 'EF': 8, 'plástica': 10, 'historia': 10, 'geografía': 2, 'castellano': 3, 'TIC': 5, 'Cuci': 3, 'biología': 10}
-{'Nombre: ': 'DAVID', 'matemáticas': 10, 'FQ': 0, 'EF': 0, 'plástica': 6, 'historia': 3, 'geografía': 5, 'castellano': 1, 'TIC': 1, 'Cuci': 8, 'biología': 8}
-{'Nombre: ': 'LAURA', 'matemáticas': 7, 'FQ': 7, 'EF': 8, 'plástica': 7, 'historia': 6, 'geografía': 6, 'castellano': 6, 'TIC': 10, 'Cuci': 9, 'biología': 7}
-{'Nombre: ': 'PILAR', 'matemáticas': 1, 'FQ': 7, 'EF': 5, 'plástica': 8, 'historia': 5, 'geografía': 4, 'castellano': 5, 'TIC': 8, 'Cuci': 10, 'biología': 5}
+
+{'Nombre: ': 'MARIA DEL CARMEN', 'matematicas': 1, 'FQ': 9, 'EF': 10, 'plastica': 1, 'historia': 9, 'geografia': 3, 'castellano': 7, 'TIC': 10, 'Cuci': 9, 'biologia': 1}
+{'Nombre: ': 'ANTONIO', 'matematicas': 7, 'FQ': 1, 'EF': 3, 'plastica': 2, 'historia': 8, 'geografia': 10, 'castellano': 2, 'TIC': 6, 'Cuci': 3, 'biologia': 3}
+{'Nombre: ': 'MARIA', 'matematicas': 7, 'FQ': 2, 'EF': 2, 'plastica': 4, 'historia': 8, 'geografia': 4, 'castellano': 4, 'TIC': 5, 'Cuci': 5, 'biologia': 8}
+{'Nombre: ': 'MANUEL', 'matematicas': 7, 'FQ': 7, 'EF': 5, 'plastica': 5, 'historia': 2, 'geografia': 1, 'castellano': 2, 'TIC': 8, 'Cuci': 5, 'biologia': 3}
+{'Nombre: ': 'CARMEN', 'matematicas': 8, 'FQ': 7, 'EF': 0, 'plastica': 6, 'historia': 2, 'geografia': 7, 'castellano': 10, 'TIC': 0, 'Cuci': 10, 'biologia': 1}
+{'Nombre: ': 'JOSE', 'matematicas': 0, 'FQ': 7, 'EF': 0, 'plastica': 4, 'historia': 3, 'geografia': 5, 'castellano': 7, 'TIC': 9, 'Cuci': 5, 'biologia': 3}
+{'Nombre: ': 'ANA MARIA', 'matematicas': 5, 'FQ': 0, 'EF': 8, 'plastica': 5, 'historia': 2, 'geografia': 1, 'castellano': 10, 'TIC': 4, 'Cuci': 9, 'biologia': 7}
+{'Nombre: ': 'FRANCISCO', 'matematicas': 9, 'FQ': 9, 'EF': 3, 'plastica': 2, 'historia': 4, 'geografia': 7, 'castellano': 8, 'TIC': 1, 'Cuci': 4, 'biologia': 4}
+{'Nombre: ': 'MARIA PILAR', 'matematicas': 3, 'FQ': 0, 'EF': 4, 'plastica': 7, 'historia': 5, 'geografia': 4, 'castellano': 0, 'TIC': 7, 'Cuci': 9, 'biologia': 4}
+{'Nombre: ': 'DAVID', 'matematicas': 4, 'FQ': 5, 'EF': 0, 'plastica': 5, 'historia': 5, 'geografia': 3, 'castellano': 7, 'TIC': 8, 'Cuci': 9, 'biologia': 0}
+{'Nombre: ': 'LAURA', 'matematicas': 0, 'FQ': 4, 'EF': 0, 'plastica': 4, 'historia': 3, 'geografia': 2, 'castellano': 8, 'TIC': 9, 'Cuci': 3, 'biologia': 0}
+{'Nombre: ': 'PILAR', 'matematicas': 4, 'FQ': 7, 'EF': 0, 'plastica': 4, 'historia': 6, 'geografia': 1, 'castellano': 6, 'TIC': 4, 'Cuci': 1, 'biologia': 8}
 
 
-{'Nombre: ': 'MARIA DEL CARMEN', 'matemáticas': 2, 'FQ': 8, 'EF': 2, 'plástica': 1, 'historia': 6, 'geografía': 1, 'castellano': 8, 'TIC': 6, 'Cuci': 3, 'biología': 9}
-{'Nombre: ': 'ANTONIO', 'matemáticas': 6, 'FQ': 2, 'EF': 8, 'plástica': 4, 'historia': 7, 'geografía': 0, 'castellano': 7, 'TIC': 6, 'Cuci': 1, 'biología': 10}
-{'Nombre: ': 'MARIA', 'matemáticas': 7, 'FQ': 10, 'EF': 8, 'plástica': 5, 'historia': 1, 'geografía': 5, 'castellano': 8, 'TIC': 2, 'Cuci': 3, 'biología': 9}
-{'Nombre: ': 'MANUEL', 'matemáticas': 7, 'FQ': 1, 'EF': 0, 'plástica': 10, 'historia': 9, 'geografía': 9, 'castellano': 8, 'TIC': 0, 'Cuci': 9, 'biología': 10}
-{'Nombre: ': 'CARMEN', 'matemáticas': 0, 'FQ': 6, 'EF': 2, 'plástica': 6, 'historia': 2, 'geografía': 6, 'castellano': 0, 'TIC': 8, 'Cuci': 8, 'biología': 7}
-{'Nombre: ': 'JOSE', 'matemáticas': 3, 'FQ': 6, 'EF': 7, 'plástica': 5, 'historia': 9, 'geografía': 8, 'castellano': 6, 'TIC': 1, 'Cuci': 4, 'biología': 1}
-{'Nombre: ': 'ANA MARIA', 'matemáticas': 9, 'FQ': 1, 'EF': 10, 'plástica': 6, 'historia': 3, 'geografía': 5, 'castellano': 5, 'TIC': 9, 'Cuci': 2, 'biología': 10}
-{'Nombre: ': 'FRANCISCO', 'matemáticas': 8, 'FQ': 9, 'EF': 9, 'plástica': 2, 'historia': 1, 'geografía': 9, 'castellano': 3, 'TIC': 8, 'Cuci': 9, 'biología': 10}
-{'Nombre: ': 'MARIA PILAR', 'matemáticas': 7, 'FQ': 7, 'EF': 4, 'plástica': 2, 'historia': 2, 'geografía': 8, 'castellano': 6, 'TIC': 7, 'Cuci': 3, 'biología': 5}
-{'Nombre: ': 'DAVID', 'matemáticas': 0, 'FQ': 4, 'EF': 2, 'plástica': 2, 'historia': 1, 'geografía': 9, 'castellano': 4, 'TIC': 4, 'Cuci': 0, 'biología': 5}
-{'Nombre: ': 'LAURA', 'matemáticas': 0, 'FQ': 10, 'EF': 6, 'plástica': 9, 'historia': 6, 'geografía': 3, 'castellano': 2, 'TIC': 4, 'Cuci': 0, 'biología': 1}
-{'Nombre: ': 'PILAR', 'matemáticas': 6, 'FQ': 4, 'EF': 1, 'plástica': 1, 'historia': 10, 'geografía': 0, 'castellano': 2, 'TIC': 8, 'Cuci': 8, 'biología': 5}
 
 
-{'Nombre: ': 'MARIA DEL CARMEN', 'matemáticas': 9, 'FQ': 0, 'EF': 0, 'plástica': 9, 'historia': 4, 'geografía': 10, 'castellano': 9, 'TIC': 1, 'Cuci': 2, 'biología': 5}
-{'Nombre: ': 'ANTONIO', 'matemáticas': 8, 'FQ': 3, 'EF': 10, 'plástica': 5, 'historia': 7, 'geografía': 5, 'castellano': 0, 'TIC': 9, 'Cuci': 1, 'biología': 3}
-{'Nombre: ': 'MARIA', 'matemáticas': 4, 'FQ': 4, 'EF': 6, 'plástica': 7, 'historia': 1, 'geografía': 2, 'castellano': 3, 'TIC': 5, 'Cuci': 9, 'biología': 2}
-{'Nombre: ': 'MANUEL', 'matemáticas': 1, 'FQ': 0, 'EF': 2, 'plástica': 2, 'historia': 3, 'geografía': 3, 'castellano': 4, 'TIC': 3, 'Cuci': 1, 'biología': 3}
-{'Nombre: ': 'CARMEN', 'matemáticas': 4, 'FQ': 1, 'EF': 9, 'plástica': 4, 'historia': 7, 'geografía': 9, 'castellano': 7, 'TIC': 7, 'Cuci': 8, 'biología': 9}
-{'Nombre: ': 'JOSE', 'matemáticas': 3, 'FQ': 1, 'EF': 10, 'plástica': 10, 'historia': 8, 'geografía': 9, 'castellano': 7, 'TIC': 3, 'Cuci': 7, 'biología': 7}
-{'Nombre: ': 'ANA MARIA', 'matemáticas': 3, 'FQ': 1, 'EF': 10, 'plástica': 10, 'historia': 9, 'geografía': 3, 'castellano': 7, 'TIC': 4, 'Cuci': 2, 'biología': 6}
-{'Nombre: ': 'FRANCISCO', 'matemáticas': 5, 'FQ': 5, 'EF': 1, 'plástica': 10, 'historia': 4, 'geografía': 8, 'castellano': 10, 'TIC': 9, 'Cuci': 10, 'biología': 8}
-{'Nombre: ': 'MARIA PILAR', 'matemáticas': 5, 'FQ': 5, 'EF': 1, 'plástica': 9, 'historia': 9, 'geografía': 6, 'castellano': 1, 'TIC': 5, 'Cuci': 7, 'biología': 8}
-{'Nombre: ': 'DAVID', 'matemáticas': 1, 'FQ': 1, 'EF': 9, 'plástica': 8, 'historia': 4, 'geografía': 3, 'castellano': 0, 'TIC': 2, 'Cuci': 2, 'biología': 7}
-{'Nombre: ': 'LAURA', 'matemáticas': 2, 'FQ': 2, 'EF': 6, 'plástica': 4, 'historia': 2, 'geografía': 3, 'castellano': 2, 'TIC': 10, 'Cuci': 0, 'biología': 2}
-{'Nombre: ': 'PILAR', 'matemáticas': 1, 'FQ': 2, 'EF': 1, 'plástica': 10, 'historia': 0, 'geografía': 1, 'castellano': 8, 'TIC': 0, 'Cuci': 3, 'biología': 2}
+{'Nombre: ': 'MARIA DEL CARMEN', 'matematicas': 7, 'FQ': 2, 'EF': 8, 'plastica': 1, 'historia': 7, 'geografia': 5, 'castellano': 5, 'TIC': 2, 'Cuci': 10, 'biologia': 1}
+{'Nombre: ': 'ANTONIO', 'matematicas': 9, 'FQ': 5, 'EF': 9, 'plastica': 10, 'historia': 8, 'geografia': 10, 'castellano': 6, 'TIC': 0, 'Cuci': 8, 'biologia': 1}
+{'Nombre: ': 'MARIA', 'matematicas': 0, 'FQ': 0, 'EF': 3, 'plastica': 6, 'historia': 1, 'geografia': 10, 'castellano': 2, 'TIC': 7, 'Cuci': 4, 'biologia': 7}
+{'Nombre: ': 'MANUEL', 'matematicas': 5, 'FQ': 10, 'EF': 0, 'plastica': 6, 'historia': 6, 'geografia': 8, 'castellano': 0, 'TIC': 10, 'Cuci': 10, 'biologia': 8}
+{'Nombre: ': 'CARMEN', 'matematicas': 3, 'FQ': 5, 'EF': 1, 'plastica': 5, 'historia': 6, 'geografia': 6, 'castellano': 7, 'TIC': 4, 'Cuci': 0, 'biologia': 5}
+{'Nombre: ': 'JOSE', 'matematicas': 3, 'FQ': 2, 'EF': 4, 'plastica': 8, 'historia': 0, 'geografia': 7, 'castellano': 1, 'TIC': 1, 'Cuci': 0, 'biologia': 6}
+{'Nombre: ': 'ANA MARIA', 'matematicas': 5, 'FQ': 7, 'EF': 7, 'plastica': 5, 'historia': 3, 'geografia': 4, 'castellano': 10, 'TIC': 8, 'Cuci': 5, 'biologia': 3}
+{'Nombre: ': 'FRANCISCO', 'matematicas': 9, 'FQ': 9, 'EF': 4, 'plastica': 1, 'historia': 3, 'geografia': 0, 'castellano': 4, 'TIC': 0, 'Cuci': 9, 'biologia': 7}
+{'Nombre: ': 'MARIA PILAR', 'matematicas': 6, 'FQ': 2, 'EF': 8, 'plastica': 0, 'historia': 8, 'geografia': 9, 'castellano': 9, 'TIC': 4, 'Cuci': 3, 'biologia': 9}
+{'Nombre: ': 'DAVID', 'matematicas': 0, 'FQ': 2, 'EF': 3, 'plastica': 4, 'historia': 10, 'geografia': 9, 'castellano': 4, 'TIC': 2, 'Cuci': 8, 'biologia': 7}
+{'Nombre: ': 'LAURA', 'matematicas': 2, 'FQ': 3, 'EF': 9, 'plastica': 9, 'historia': 5, 'geografia': 2, 'castellano': 8, 'TIC': 2, 'Cuci': 10, 'biologia': 0}
+{'Nombre: ': 'PILAR', 'matematicas': 0, 'FQ': 2, 'EF': 0, 'plastica': 4, 'historia': 5, 'geografia': 6, 'castellano': 4, 'TIC': 10, 'Cuci': 0, 'biologia': 0}
 
 
