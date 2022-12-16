@@ -4,7 +4,7 @@ import random
 #Creo el array 'alumnos' (se pueden poner cuantos se deseen)
 alumnos=["MARIA DEL CARMEN","ANTONIO", "MARIA", "MANUEL", "CARMEN", "JOSE", "ANA MARIA", "FRANCISCO", "MARIA PILAR", "DAVID",	"LAURA", "PILAR"]
 #Creo el array 'materias' (se pueden poner cuantas se deseen)
-materias=["matemáticas", "FQ", "EF", "plástica", "historia", "geografía", "castellano", "TIC", "Cuci", "biología"]
+materias=["matematicas", "FQ", "EF", "plastica", "historia", "geografia", "castellano", "TIC", "Cuci", "biología"]
 
 #La función 'crear(name)' recibe un nombre y con él completa el valor 'Nombre' en un diccionario
 def crear(name):
@@ -18,12 +18,12 @@ def crear(name):
         Procuro que no se busquen asignaturas con posiciones mayores a la máxima del array 'materias'.
         Ya que sino se añadirían valores vacíos o nulos al diccionario
         """
+        #El nombre es la primera clave-valor
+        nombre["Nombre: "]=name
         if i>=max:
             pass
         #De no haber ningún inconvceniente a la hora de iterar, se añaden valores al diccionario
         else:
-            #El nombre es la primera clave-valor
-            nombre["Nombre: "]=name
             """
             Las materias se ordenan en clave-valor según sus posiciones en el array 
             (la clave de cada una se obtiene tras acceder a su posición en el array a cada vuelta de bucle)
@@ -36,7 +36,7 @@ def crear(name):
 #todos() será una función que imprima por consola y escriba en un documento de texto los diccionarios obtenidos
 def todos():
     #Abro un archivo especificando su ruta, indico 'a+' para que pueda leer y escribir en ese documento
-    with open("/home/zinedine/Desktop/Code/Z-Pruebas/Oscar-L/text.txt", "a+") as f:
+    with open('Z-Pruebas\Oscar-L\Text.txt', "a+") as f: #Escoger la ruta dependiendo del PC
         #Para cada alumno hace lo siguiente
         for i in range(len(alumnos)):
             #Hago uso de la función crear para, precisamente, crear un diccioonario para cada usuario
