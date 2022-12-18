@@ -5,7 +5,8 @@ import random
 alumnos=["OSCAR", "MARIA DEL CARMEN","ANTONIO", "MARIA", "MANUEL", "CARMEN", "JOSE", "ANA MARIA", "FRANCISCO", "MARIA PILAR", "DAVID",	"LAURA", "PILAR"]
 #Creo el array 'materias' (se pueden poner cuantas se deseen)
 materias=["matemáticas", "FQ", "EF", "plástica", "historia", "geografía", "castellano", "TIC", "Cuci", "biología"]
-
+nombre={}
+max=len(materias)
 #La función 'crear(name)' recibe un nombre y con él completa el valor 'Nombre' en un diccionario
 def crear(name):
     #Itetrará tantas veces como alumnos haya
@@ -32,7 +33,7 @@ def crear(name):
 #todos() será una función que imprima por consola y escriba en un documento de texto los diccionarios obtenidos
 def todos():
     #Abro un archivo especificando su ruta, indico 'a+' para que pueda leer y escribir en ese documento
-    with open('Z-Pruebas\Oscar-L\Text.txt', "a+") as f: #Escoger la ruta dependiendo del PC
+    with open('/home/zinedine/Desktop/Code/Z-Pruebas/Oscar-L/text.txt', "a+") as f: #Escoger la ruta dependiendo del PC
         #Para cada alumno hace lo siguiente
         for i in range(len(alumnos)):
             #Hago uso de la función crear para, precisamente, crear un diccioonario para cada usuario
@@ -47,5 +48,8 @@ def todos():
         #Cierro la conexión con el archivo
         f.close()
 todos()
+print("\n")
+print("En caso de que no funcione: especifica correctamente la ruta en la función 'todos() '")
+
 
 
