@@ -15,6 +15,10 @@ NOTA: Se pueden usar números positivos, negativos, enteros y decimales (en form
     Recuerda que si estás usando la función de restar, por ejemplo, 123-34 = 123-(-34) = 123+34;
     Por lo tanto al sumar es lo mismo: 73-56 = 73+(-56) = 73-56
     (Esto ya es más de matemáticas, concretamente de 1ºESO)
+
+RETO: Te reto a que comentes este código, es decir, que expliques que hace cada línea simplificando lo 
+    máximo posible pero que se entienda. Si hay algo que no conozcas búscalo en internet primero, estas pueden
+    ser cosas como '.pop(x)' o '.split()'. Debes comentar las funciones y los condicionales.
 """
 
 
