@@ -18,7 +18,7 @@ NOTA: Se pueden usar números positivos, negativos, enteros y decimales (en form
 
 RETO: Te reto a que comentes este código, es decir, que expliques que hace cada línea simplificando lo 
     máximo posible pero que se entienda. Si hay algo que no conozcas búscalo en internet primero, estas pueden
-    ser cosas como '.pop(x)' o '.split()'. Debes comentar las funciones y los condicionales.
+    ser cosas como '.pop()' o '.split()'. Debes comentar las funciones y los condicionales.
 """
 
 
