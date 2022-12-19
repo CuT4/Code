@@ -19,6 +19,10 @@ NOTA: Se pueden usar números positivos, negativos, enteros y decimales (en form
 RETO: Te reto a que comentes este código, es decir, que expliques que hace cada línea simplificando lo 
     máximo posible pero que se entienda. Si hay algo que no conozcas búscalo en internet primero, estas pueden
     ser cosas como '.pop()' o '.split()'. Debes comentar las funciones y los condicionales.
+    No te rayes si no te sale a la primera, es normal, comentar código ageno requiere leerlo varias veces además
+    de entender que es lo que hace y cómo lo hace.
+    (Diría que para un desarroyador master de python este ejercicio tiene dificultad inferior a 1/10)
+    Son condicionales y funciones básicamente, cosas que ya conoces bien, tú puedes hacerlo Óscar.
 """
 
 
