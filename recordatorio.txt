@@ -1,0 +1,28 @@
+
+-Repasar Big-O en Khan-Academy;
+
+-Repasar NOTACIÓN ASINTÓTICA en Khan-Academy;
+
+--@keyframes;
+
+--Aprender o imprimir alfabeto griego.
+
+--DJANGO=> investigar sobre Django y su uso de python en aplicaciones web;
+
+
+--LIBRO=> El bosón de gigs no te va ha hacer la cama (Javier Santaolalla);
+
+--LIBRO=> ¿Qué hace un bosón como tú en un Big Bang como este? (Javier Santaolalla);
+
+--LIBRO=> Discotecas por fuera (Víctor Balcels); 
+
+--LIBRO=> Inmune(kurgesagt);
+
+--Ci Pipeline;
+
+--LIBRO=> Put 'Em Down. Take 'Em Out. Knife Fighting Techniques From Folsom Prison (Don Pentecost);
+
+--LEER=> Teoría de la Información;
+
+vintedPasword#225
+
