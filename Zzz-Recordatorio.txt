@@ -1,7 +1,8 @@
+--https://roadmap.sh/ -> CAMINO PARA SER PROGRAMADOR (Ci Pipeline)
 
--Repasar Big-O en Khan-Academy;
+--Repasar Big-O en Khan-Academy;
 
--Repasar NOTACIÓN ASINTÓTICA en Khan-Academy;
+--Repasar NOTACIÓN ASINTÓTICA en Khan-Academy;
 
 --Choose among: REACT, NODE JS, ANGULAR;
 
