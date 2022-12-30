@@ -1,5 +1,3 @@
---Delete the git branches I don't need
-
 --https://roadmap.sh/ -> CAMINO PARA SER PROGRAMADOR (Ci Pipeline)
 
 --Repasar Big-O en Khan-Academy;
