@@ -10,3 +10,4 @@ GRÁFICAS MATEMÁTICAS		https://www.desmos.com/calculator/1v4xdyqcos?lang=es
 PAC-MAN RTX			https://guineu.itch.io/pacman-rtx
 TINKERCAD			https://www.tinkercad.com/
 PROGRAMING LANGUAGES INDEX	https://www.tiobe.com/tiobe-index/
+PIPELINE			https://roadmap.sh/
