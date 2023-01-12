@@ -30,9 +30,8 @@ void loop() {
   xValue = analogRead(VRX_PIN);
   yValue = analogRead(VRY_PIN);
   Serial.print("Y:");
-  Serial.println(xValue);
-  Serial.print("X:");
   Serial.println(yValue);
+  Serial.print("X:");
+  Serial.println(xValue);
   delay(200);
 }
-
