@@ -1,0 +1,225 @@
+Please, read the python code below and give me an answer to the problem I tell you about in the multi-line comment: import serial
+import pyautogui
+
+arduino_port="/dev/ttyACM0"
+baud=9600
+#in the code I've readen, they took anly 10 samples but I'm gonna collect data till the program is closed.
+ser=serial.Serial(arduino_port, baud)
+print("Connected to the arduino port at ", baud, "bauds")
+# screenWidth, screenHeight=pyautogui.size()
+# mouseX, mouseY=pyautogui.position() #actual positon X and y of the mouse
+# screenSize=[screenWidth, screenHeight]# is [1920, 1080] in my monitor
+
+
+
+while True:
+    data=ser.readline().decode('utf-8').rstrip()
+    xyValues=data.split(",")
+    final_xyValues=[]
+    for i in xyValues:
+        final_xyValues.append(int(i))
+    print(final_xyValues)
+
+"""
+Here is where I need help. I want to move the cursor with the values that
+the program is constantly receiving and converting to an array called
+final_xyValues. The array final_xyValues's first value is the x axis and the
+second the y axis.
+
+Take in count that the variable data is a string like this: '405,678', wich is
+transform to an array with two integers as values. Now, you must know that the values
+of final_xyValues are from an analog input of a joystick connected to an Arduino Uno
+and readen from the serial port. I want to move the cursor with the analog inputs of the
+joystick
+
+"""
+
+You can use the pyautogui library's moveTo() function to move the cursor to a specific x and y coordinate. In the while loop, after splitting and converting the data into the final_xyValues array, you can use the first value of the array as the x coordinate and the second value as the y coordinate to move the cursor.
+
+Here is an example of how you could implement this in your code:
+
+Copy code
+while True:
+    data=ser.readline().decode('utf-8').rstrip()
+    xyValues=data.split(",")
+    final_xyValues=[]
+    for i in xyValues:
+        final_xyValues.append(int(i))
+    pyautogui.moveTo(final_xyValues[0], final_xyValues[1])
+It should move the cursor to the x,y coordinates received from the joystick.
+
+
+
+
+oscars-email@protonmail.com
+That didn't work, checkout the result: Connected to the arduino port at  9600 bauds
+[507]
+Traceback (most recent call last):
+  File "/home/zinedine/Desktop/Code/ARDUINO/joystick/joystickPython/joystickPy2.py", line 22, in <module>
+    pyautogui.moveTo(final_xyValues[0], final_xyValues[1])
+IndexError: list index out of range
+The error message "list index out of range" suggests that the final_xyValues array only has one value in it, rather than two. It's likely that the data being received from the Arduino is not in the format that you expect, such as not being a string of two comma-separated values.
+
+Here is what you can do to debug your issue:
+
+You can print out the value of "data" variable after it's been read from the serial port to see if it's in the format you expect.
+You can also print out the length of final_xyValues array before using it to move the cursor, to check if it has 2 values in it.
+You can check the value of the xyValues array, this array is the one which is being split from the "data" variable, if the values are not being splitted properly then the final_xyValues array will not have 2 values
+Verify the connection to the Arduino board and the baud rate, check if the data is being received properly or not
+With this information, you should be able to identify the problem and find a solution.
+
+
+
+
+oscars-email@protonmail.com
+I have choosen the second option, but the problem is that once this starts running the values of the x and y axis are between 510 and 500, doesn't matter if I move the joystick or not. This are the changes in the code:  while True:
+    data=ser.readline().decode('utf-8').rstrip()
+    xyValues=data.split(",")
+    final_xyValues=[]
+    for i in xyValues:
+        final_xyValues.append(int(i))
+    print(final_xyValues)
+    if len(final_xyValues)==2:
+        pyautogui.moveTo(final_xyValues[0], final_xyValues[1])
+It looks like the problem is with the data being received from the Arduino. From your code and the issue you're describing, it seems that the data being read from the serial port is not changing, and is always around the value of 510.
+
+Here are a few things you can try to troubleshoot and resolve the issue:
+
+Verify that the Arduino is sending data on the correct serial port and baud rate. Make sure that the port and baud rate specified in your Python code match the settings on the Arduino.
+
+Check the code on the Arduino side. Ensure that the analog input from the joystick is being properly read and converted to a string before it's sent over the serial port.
+
+Check the circuit of your joystick, make sure that the center value of the joystick is around the middle of the range, the center value is usually 512, and check if there is any problem with the wiring.
+
+You can check the output of the values on the serial monitor of arduino IDE to see if the values are being read properly.
+
+By following these steps, you should be able to identify and resolve the problem.
+
+
+
+
+oscars-email@protonmail.com
+This is the arduino code: #define VRX_PIN  A0 // Arduino pin connected to VRX pin
+#define VRY_PIN  A1 // Arduino pin connected to VRY pin
+
+
+
+void setup() {
+  Serial.begin(9600) ;
+}
+
+void loop() {
+  int xValue = analogRead(VRX_PIN);
+  int yValue = analogRead(VRY_PIN);
+  // read analog X and Y analog values
+  Serial.print(xValue);
+  Serial.print(",");
+  Serial.println(yValue);
+  
+}
+The Arduino code looks fine, it reads the values from the analog inputs connected to VRX_PIN and VRY_PIN and sends them over the serial port as a string of comma-separated values.
+
+It looks like the problem is with the joystick itself. The values you are getting from the joystick are not changing when you move it, and it seems to be stuck at around 510. This could be caused by a malfunctioning or damaged joystick.
+
+Here is what you can do to confirm the issue:
+
+Test the joystick on a different platform or application to see if it works as expected.
+
+Try using a different joystick to see if it works with your code.
+
+Check the wiring of the joystick, make sure that all connections are secure and that there is no damage to the wires.
+
+Try replacing the joystick, if it's still not working, you might have to consider getting a new joystick.
+
+By following these steps, you should be able to confirm whether the joystick is the problem, and take the necessary steps to resolve the issue.
+
+
+
+
+oscars-email@protonmail.com
+I have just tried the joystick in another python file that receives the data from the arduino and its values were fine, the circuit is ok. The problem starts when my python script tries to move the cursor using pyautogui, it moves to the correct coordenates but after that the values of the axis are not changing.
+It sounds like the problem is with the pyautogui.moveTo() function. The function might be blocking the execution of the loop and preventing the Arduino from sending new data.
+
+Here are a few things you can try to resolve the issue:
+
+Use pyautogui.moveRel() instead of pyautogui.moveTo(). This function moves the cursor relative to its current position, instead of setting an absolute position. This could prevent the function from blocking the execution of the loop.
+
+Add a delay between each call to pyautogui.moveTo(). This would give the loop enough time to execute and read new data from the Arduino. You can use time.sleep() function to add the delay.
+
+wrap the moveTo function call inside a try and except block, if it throws any exception, print it and debug it
+
+Try using a different library for controlling the cursor, such as pynput.
+
+By following these steps, you should be able to resolve the issue and move the cursor using the values received from the Arduino.
+
+
+
+
+oscars-email@protonmail.com
+I've changed to pyautogui.moveRel() function but now, when it reads the first values, it moves right relative to the current position of the cursor but only once
+The problem is that the pyautogui.moveRel() function is only moving the cursor once, because the values read from the serial port are not changing.
+
+Here are a few things you can try to resolve the issue:
+
+Make sure that the joystick is properly calibrated and centered. The joystick should return to its center position when released, and the values read from the serial port should be around 512.
+
+Check the Arduino code and make sure that the values are being properly read from the analog inputs and sent over the serial port.
+
+Check the wiring of the joystick, make sure that all connections are secure and that there is no damage to the wires.
+
+Add a delay between each call to moveRel function, this will give the loop time to execute and read new data from the Arduino.
+
+Check the values read from the serial port, if it's the same then there's a problem with the arduino, if the values are changing then the problem is with the pyautogui.
+
+By following these steps, you should be able to identify the problem and take the necessary steps to resolve the issue.
+
+
+
+
+oscars-email@protonmail.com
+I've added a delay and after the first move, wich is ok , it continues moving like if the values were like the first input
+This issue is happening because the values read from the serial port are not changing after the first move, this means that the data being sent from the arduino is not changing.
+
+Here are a few things you can try to resolve the issue:
+
+Make sure that the joystick is properly calibrated and centered. The joystick should return to its center position when released, and the values read from the serial port should be around 512.
+
+Check the Arduino code and make sure that the values are being properly read from the analog inputs, you can check the output of the values in the serial monitor of arduino IDE.
+
+Check the wiring of the joystick, make sure that all connections are secure and that there is no damage to the wires.
+
+Verify that the Arduino is sending data on the correct serial port and baud rate. Make sure that the port and baud rate specified in your Python code match the settings on the Arduino.
+
+You can also try to debug the loop by adding some print statements to check the values read from the serial port at different stages of the loop, this will give you a better understanding of what's happening.
+
+By following these steps, you should be able to identify the problem and take the necessary steps to resolve the issue.
+
+
+
+
+oscars-email@protonmail.com
+I've done everything you've said, and the program is still not working. What should I do?
+It sounds like you've done a thorough troubleshooting, but the issue still persists.
+
+Here are a few other things you can try:
+
+Try a different microcontroller board, such as an Arduino Mega, to see if the problem is with the board itself.
+
+Try using a different library for reading from the serial port, such as pyserial.
+
+Check if the joystick is working properly by using it with another device or application.
+
+check if there is any problem with the power supply of the arduino, sometimes when power supply is not stable, the values read from the analog inputs are not accurate.
+
+If none of these steps work, you may consider seeking help from other experts in the field or consulting the manufacturer of the joystick or microcontroller board for further assistance.
+
+It could be possible that there's a compatibility issue between your joystick and the board you're using, or there's a defect with the board or joystick.
+
+By trying these steps, you should be able to identify the problem and take the necessary steps to resolve the issue.
+
+
+
+
+oscars-email@protonmail.com
+I'll change the library for moving the mouse other day. Save this conversation.
+I'm sorry, but I am not able to save this conversation. However, you can copy and paste the conversation to a document or take screenshots. If you change the library for moving the mouse, and you need help with it, feel free to reach out and ask me again. I will be here to assist you.
