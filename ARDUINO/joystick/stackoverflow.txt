@@ -1,0 +1,3 @@
+I'm trying to move my cursor with a joystick connected to an Arduino Uno through a python script since this board doesn't have a library for moving mouse as the Arduino Leonardo has. Therefore I need help with the issue I present below. You can see how the code works and were the issue is the comments of my code. Please, I'll thank a solution.
+
+You can see the issue with the values of the joystick in the last comment of the python code below. Where it says 'ISSUE'. I've been looking for a solution several days and nothing worked. 
