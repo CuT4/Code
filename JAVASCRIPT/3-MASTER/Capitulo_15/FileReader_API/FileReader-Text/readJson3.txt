@@ -1,0 +1,5 @@
+{
+    "parte del cuerpo":"pie",
+    "tamaño":"cero",
+    "razón":"no tiene"
+}

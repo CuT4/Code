@@ -1,0 +1,5 @@
+{
+    "parte del cuerpo":"cabeza",
+    "tamaño":"descomunal",
+    "razón":"idk"
+}
