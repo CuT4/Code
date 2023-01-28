@@ -4,14 +4,39 @@
     font-family:  'Source Code Pro', monospace;
     box-sizing: border-box;
 }
-body{
+/* body{
     background-color: #2e364a;
-}
-/* .timeline{
-    position: relative;
-    max-width: 1200px;
-    margin: 100px auto;
 } */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.content {
+    /* position: fixed; */
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 20px;
+}
+.header {
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, #292d38, #747578);
+    padding: 3px;
+}
+  
+.title {
+    background-color: darkgray;
+    padding: 2rem;
+    font-size: 30px;
+    text-align: center;
+    color: #222;
+    position: relative;
+}
 .container{
     margin-top: 30px;
     padding: 10px 50px;
@@ -52,7 +77,7 @@ body{
 } */
 .text-box{
     padding: 20px 30px;
-    background: #fff;
+    background: beige;
     position: relative;
     border-radius: 6px;
     font-size: 16px;
@@ -79,7 +104,7 @@ body{
 .timeline{
     max-height: 100%;
 }
-.timeline::after{
+/* body::after{
     content: '';
     position: absolute;
     width: 6px;
@@ -90,7 +115,7 @@ body{
     margin-left: -3px;
     z-index: -1;
     animation: moveline 6s linear forwards;
-}
+} */
 @keyframes moveline{
     0%{
         height: 0;
@@ -114,7 +139,7 @@ body{
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #fff;
+    border-left: 15px solid beige;
     right: -15px;
 }
 .right-container-arrow{
@@ -125,7 +150,7 @@ body{
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #fff;
+    border-right: 15px solid beige;
     left: -15px;
 }
 @media screen and (max-width: 600px){
