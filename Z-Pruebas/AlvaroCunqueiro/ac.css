@@ -17,7 +17,6 @@
 .content {
     /* position: fixed; */
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
     width: 100%;
     padding: 20px;
 }
@@ -25,12 +24,12 @@
     width: 100%;
     padding: 1rem;
     position: relative;
-    background: linear-gradient(to right, #292d38, #747578);
+    /* background: linear-gradient(to right, #292d38, #747578); */
     padding: 3px;
 }
   
 .title {
-    background-color: darkgray;
+    background: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     font-size: 30px;
     text-align: center;
