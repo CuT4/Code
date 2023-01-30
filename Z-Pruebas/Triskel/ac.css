@@ -4,24 +4,20 @@
     font-family:  'Source Code Pro', monospace;
     box-sizing: border-box;
 }
-/* body{
-    background-color: #2e364a;
-} */
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
 .content {
     /* position: fixed; */
+    background-image: url('triskele.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
     bottom: 0;
     width: 100%;
     padding: 20px;
 }
 .header {
-    background: rgba(0, 0, 0, 0.5);
+    background: url('trisk.png');
+    background-size: 100%;
     width: 100%;
     padding: 1rem;
     position: relative;
@@ -30,11 +26,10 @@
 }
   
 .title {
-    /* background-color: rgba(0, 0, 0, 0.5); */
     padding: 2rem;
     font-size: 30px;
     text-align: center;
-    color: #222;
+    color: rgb(255, 255, 255);
     position: relative;
 }
 .container{
