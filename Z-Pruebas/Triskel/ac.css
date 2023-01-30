@@ -71,6 +71,8 @@
     animation-delay: 5s;
 } */
 .text-box{
+    min-width: 100%;
+    min-height: 100%;
     padding: 20px 30px;
     background: beige;
     position: relative;
@@ -78,6 +80,19 @@
     font-size: 16px;
     text-align: left;
     opacity: 0;
+}
+.copaNumancia{
+    display: flex;
+    justify-content: center;
+    margin-right: 350px;
+    margin-top: 20%;
+    width: 100%;
+    height: 50%;
+}
+#e{
+    width: 100%;
+    height: 400px;
+    align-items: center;
 }
 .left-container{
     left: 0%;
@@ -98,6 +113,7 @@
 }
 .timeline{
     max-height: 100%;
+    margin-bottom: 320px;
 }
 /* body::after{
     content: '';
