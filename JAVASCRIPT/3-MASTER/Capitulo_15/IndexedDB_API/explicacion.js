@@ -54,4 +54,3 @@ const obtenerDatos = function(db) {
   };
 };
 
-
