@@ -27,16 +27,16 @@ while True:#comentario de prueba
     data=ser.readline().decode('utf-8').rstrip()
 
     xy=data.split(",")
-    print("X: ", xy[0], ", Y: ", xy[1])# Consider that the values printed are strings
+    # print("X: ", xy[0], ", Y: ", xy[1])# Consider that the values printed are strings
 
     """
     It's necesary ot reduce the values obtained from the joystic because
     if not it would be a dissaster. It's important to take in count that the 
     values 500 in the x and y axis from the joystic should be the 0 in pyautogui.
     """
-    pyX=int(xy[0])-509
-    pyY=int(xy[1])-507
-
+    pyX=int(xy[0])-509 #to set the non-movement to cero
+    pyY=int(xy[1])-507 #to set the non-movement to cero
+    print(pyX, ", ", pyY)
     pyautogui.move(pyX, pyY)
 
     # 'data' is now guaranteed to be a most recent, complete
