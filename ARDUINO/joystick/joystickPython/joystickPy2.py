@@ -2,7 +2,6 @@
 import serial
 from serial import Serial
 # import pyautogui
-import time
 
 arduino_port="/dev/ttyACM0" #Serial port for comunication(ubuntu).
 baud=9600#frecuency
