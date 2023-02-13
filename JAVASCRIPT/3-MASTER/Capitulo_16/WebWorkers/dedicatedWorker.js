@@ -6,6 +6,7 @@ document.querySelector(".boton").addEventListener("click", ()=>enviar_mensaje_al
 //Hay que mandar la orden al worker porque no tiene como objeto global a window
 const enviar_mensaje_al_worker=()=>{
     worker.postMessage("esto el la data del evento messaje en el web-worker");
+    worker.terminate()
 }
 
 
