@@ -14,6 +14,10 @@ if ("serviceWorker" in navigator) {
 messageForm.addEventListener("submit", (event) => {
   event.preventDefault();
   const message = messageInput.value;
+  const messageElement = document.createElement("div");
+  messageElement.classList.add("from_chat");
+  messageElement.innerText=message;
+  messagesContainer.appendChild(messageElement);
   // Enviando mensaje a la página "chat2.html"
   navigator.serviceWorker.getRegistration().then((registration) => {
     registration.active.postMessage({
@@ -31,6 +35,7 @@ navigator.serviceWorker.addEventListener("message", (event) => {
   if (event.data.type === "message" && event.data.sourcePage === "chat2.html") {
     const message = event.data.message;
     const messageElement = document.createElement("div");
+    messageElement.classList.add("from_chat2");
     messageElement.innerText = message;
     messagesContainer.appendChild(messageElement);
   }

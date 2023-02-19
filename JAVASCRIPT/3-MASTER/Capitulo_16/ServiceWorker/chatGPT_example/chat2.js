@@ -9,6 +9,10 @@ document.addEventListener("DOMContentLoaded", function() {
       event.preventDefault();
       const message = messageInput.value;
       // Enviando mensaje a la página "chat.html"
+      const messageElement = document.createElement("div");
+      messageElement.classList.add("from_chat2");
+      messageElement.innerText=message;
+      messagesContainer.appendChild(messageElement);
       navigator.serviceWorker.getRegistration().then((registration) => {
         registration.active.postMessage({
           type: "message",
@@ -25,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (event.data.type === "message" && event.data.sourcePage === "chat.html") {
         const message = event.data.message;
         const messageElement = document.createElement("div");
+        messageElement.classList.add("from_chat");
         messageElement.innerText = message;
         messagesContainer.appendChild(messageElement);
       }
