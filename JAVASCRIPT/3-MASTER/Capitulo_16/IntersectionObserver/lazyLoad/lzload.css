@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+
+body, h3, div, p, input{
+    margin: 0;
+    padding: 0;
+}
+.publicaion{
+    text-align: left;
+    margin: 20px;
+    color: #555;
+}
+.publicaion p{
+    margin: 10px 20px;
+    border-left: 2px solid #48e;
+}
+.publicaion h3{
+    color: #48e;
+    border-bottom: 2px solid #48e;
+    display: inline-block;
+}
+.comentarios{
+    display: flex;
+    width: 100%;
+}
+.comentarios input{
+    padding: 6px 10px;
+}
+.comentarios .comentario{
+    flex-grow: 1;
+}
+.comentarios .enviar{
+    min-width: 60px;
+    padding: 6px 10px;
+}

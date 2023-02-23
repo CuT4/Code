@@ -1,13 +1,14 @@
-CSS SPINERS			https://epic-spinners.epicmax.co/
-CSS GRID/FLEX			https://grid.malven.co/
+CSS SPINERS			        https://epic-spinners.epicmax.co/
+CSS GRID/FLEX			    https://grid.malven.co/
 LIBROS DE MATEMÁTICAS		https://infolibros.org/libros-pdf-gratis/matematicas/
-KHAN ACADEMY			https://es.khanacademy.org/profile/me/courses
-BRILLIANT			https://brilliant.org
+KHAN ACADEMY			    https://es.khanacademy.org/profile/me/courses
+BRILLIANT			        https://brilliant.org
 CONVERSOR .BLEND-.OBJ		https://fabconvert.com/
 DISEÑOS GRAFICOS GRATIS		https://undraw.co
 DISEÑOS GRAFICOS GRATIS		https://humaaans.com/
 GRÁFICAS MATEMÁTICAS		https://www.desmos.com/calculator/1v4xdyqcos?lang=es
-PAC-MAN RTX			https://guineu.itch.io/pacman-rtx
-TINKERCAD			https://www.tinkercad.com/
+PAC-MAN RTX			        https://guineu.itch.io/pacman-rtx
+TINKERCAD			        https://www.tinkercad.com/
 PROGRAMING LANGUAGES INDEX	https://www.tiobe.com/tiobe-index/
-PIPELINE			https://roadmap.sh/
+PIPELINE			        https://roadmap.sh/
+LEYES DE UX                 https://www.eniun.com/12-leyes-experiencia-de-usuario-ux/

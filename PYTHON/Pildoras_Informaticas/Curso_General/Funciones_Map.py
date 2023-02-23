@@ -14,7 +14,7 @@ tuplaEmpleados=[
 (Empleado, "Juan", "Director", 6700),
 (Empleado, "Ana", "Presidenta", 10000),
 (Empleado, "Pedro", "Administrativo", 4700),
-(Empleado, "Xulian", "Botones", 2100),
+(Empleado, "Xulian", "Botones", 2100)
 
 ]
 

@@ -12,6 +12,8 @@
 
 --DJANGO=> investigar sobre Django y su uso de python en aplicaciones web;
 
+--LIBRO=> Deep Work (Cal Newport)
+
 --LIBRO=> El bosón de gigs no te va ha hacer la cama (Javier Santaolalla);
 
 --LIBRO=> ¿Qué hace un bosón como tú en un Big Bang como este? (Javier Santaolalla);
