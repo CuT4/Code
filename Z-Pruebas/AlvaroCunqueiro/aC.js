@@ -30,9 +30,3 @@ alvaroImg5.addEventListener("mouseover", (e)=>{
     text_box5.style.opacity=1;
 })
 //---------------------------------------------
-const alvaroImg6=document.getElementById("6");
-const text_box6=document.getElementById("f");
-alvaroImg6.addEventListener("mouseover", (e)=>{
-    text_box6.style.opacity=1;
-})
-//---------------------------------------------

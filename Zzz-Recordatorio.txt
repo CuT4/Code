@@ -1,3 +1,5 @@
+--Aprender a hacer un PULL REQUEST en git.
+
 --https://roadmap.sh/ -> CAMINO PARA SER PROGRAMADOR (Ci Pipeline)
 
 --Repasar Big-O en Khan-Academy;
@@ -10,9 +12,7 @@
 
 --@keyframes;
 
---DJANGO=> investigar sobre Django y su uso de python en aplicaciones web;
-
---LIBRO=> Deep Work (Cal Newport)
+--LIBRO=> Deep Work (Cal Newport);
 
 --LIBRO=> El bosón de gigs no te va ha hacer la cama (Javier Santaolalla);
 
