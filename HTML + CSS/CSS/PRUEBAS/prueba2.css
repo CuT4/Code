@@ -1,0 +1,132 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #222322;
+}
+.loader-container{ 
+    width: 150px;
+    height: 150px;
+    /*background-color: rgb(117, 117, 111);*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.purple, .blue, .red, .green{
+    margin: 2px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.squares-container{
+    /*background-color: #fff;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translate(-50% -50%);
+}
+.purple{
+    background-color: purple;
+    grid-column: 1;
+    grid-row: 1;
+    position: relative;
+    animation: purple-animation 4s infinite;
+}
+.green{
+    background-color: green;
+    grid-column: 2;
+    grid-row: 2;
+    position: relative;
+    animation: green-animation 4s  infinite;
+}
+.blue{
+    background-color: blue;
+    grid-column: 2;
+    grid-row: 1;
+    position: relative;
+    animation: blue-animation 4s infinite;
+}
+.red{
+    background-color: red;
+    grid-column: 1;
+    grid-row: 2;
+    position: relative;
+    animation: red-animation 4s infinite;
+}
+@keyframes purple-animation{
+    0%{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    25%{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    75%{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    100%{
+        grid-column: 1;
+        grid-row: 2;
+    }
+}
+@keyframes green-animation{
+    0%{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    25%{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    75%{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    100%{
+        grid-column: 2;
+        grid-row: 1;
+    }
+}
+@keyframes blue-animation{
+    0%{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    25%{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    75%{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    100%{
+        grid-column: 1;
+        grid-row: 1;
+    }
+}
+@keyframes red-animation{
+    0%{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    25%{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    75%{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    100%{
+        grid-column: 2;
+        grid-row: 2;
+    }
+}
