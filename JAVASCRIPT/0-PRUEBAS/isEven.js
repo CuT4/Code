@@ -13,3 +13,7 @@ const checkIfIsEven = (n)=>{
         return checkIfIsEven(n-2)
     }
 }
+button=document.querySelector("#activar-function")
+button.addEventListener("click", ()=>{
+    console.trace(checkIfIsEven(29));
+} )
