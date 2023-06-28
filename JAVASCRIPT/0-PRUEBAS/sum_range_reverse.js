@@ -17,8 +17,8 @@ const range=(start, end)=>{
 }
 const reverseArray=(arr)=>{
     //REFACTOR
-    const result=[];
-    for(let i=-1; i>-arr.length; i){
+    let result=[];
+    for(let i=arr.length-1; i>=0;i--){
         result.push(arr[i])
     }
     arr=result;
