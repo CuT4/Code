@@ -16,7 +16,7 @@ const range=(start, end)=>{
     return result
 }
 const reverseArray=(arr)=>{
-    //REFACTOR
+    //Reverses the array given
     let result=[];
     for(let i=arr.length-1; i>=0;i--){
         result.push(arr[i])
